@@ -104,9 +104,21 @@ const barbearia = {
 
         list.valor=valor
         list.tipo=tipo
+        console.log('Item atualizado com sucesso')
+      
       }
+      
+
+      
+    }
+
+    if(valor==null){
+
+      console.log('Entrada de valores inválida')
     }
     
+
+   
   };
 
   atualizaPedido(barbearia.cortes,4,35,'Degradê')
